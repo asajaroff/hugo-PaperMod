@@ -1,11 +1,37 @@
 /*
 Resume CSS
 */
+.header {
+    min-width: 250px;
+}
+
+.introduction_text{
+    border: 5px solid violet;
+    min-width: 300px;
+    flex-grow: 1;
+
+}
+
+.contact_info {
+    border: 5px solid violet;
+    min-width: 300px;
+    flex-grow: 0;
+
+}
 
 .resume {
     border: 5px solid red;
+    display: flex;
+    gap: 3em;
+    min-width: 300px;
+    min-height: 300px;
+    flex-wrap: wrap;
+    flex-grow: 0;
 }
 
 .resume_block {
     font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
